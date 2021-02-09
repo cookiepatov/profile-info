@@ -1,0 +1,31 @@
+.form__accept-text {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 10px;
+  position: relative;
+}
+
+
+.form__accept-text::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  background-image: url(../../../images/checkbox.svg);
+  left: -22px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.form__checkbox:checked + label::before {
+  background-image: url(../../../images/checkbox_checked.svg);
+}
+
+.form__checkbox:hover + label::before {
+  opacity: 0.5;
+}

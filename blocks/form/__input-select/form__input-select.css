@@ -1,0 +1,17 @@
+.form__input-select {
+  appearance: none;
+  border: 1px solid #999999;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  display: grid;
+  grid-template-areas: "select";
+  background-image: url(../../../images/arrow.svg);
+  background-position: calc(100% - 14px);
+  background-repeat: no-repeat;
+}

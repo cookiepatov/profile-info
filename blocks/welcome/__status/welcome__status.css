@@ -1,0 +1,33 @@
+.welcome__status {
+  grid-column: 2/4;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #404040;
+  background-color: #EAEAEA;
+  width: calc(100% - 24px);
+  padding: 12px 12px 8px 12px;
+  margin: 0;
+  margin-top: 11px;
+  position: relative;
+}
+
+.welcome__status::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #EAEAEA;
+  width: 11px;
+  height: 11px;
+  transform: rotate(45deg);
+  top:-6px;
+  left:11px;
+}
+
+
+@media screen and (max-width:640px) {
+  .welcome__status {
+    grid-column: 1;
+  }
+}

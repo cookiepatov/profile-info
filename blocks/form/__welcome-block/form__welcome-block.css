@@ -1,0 +1,20 @@
+.form__welcome-block {
+  width: 728px;
+  display: grid;
+  grid-template-columns: max-content max-content 1fr;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+
+@media screen and (max-width:750px) {
+  .form__welcome-block {
+    width: 100%
+  }
+}
+@media screen and (max-width:640px) {
+  .form__welcome-block {
+    grid-template-columns: 1fr;
+  }
+}

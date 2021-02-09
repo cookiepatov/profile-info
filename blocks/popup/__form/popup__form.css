@@ -1,0 +1,33 @@
+.popup__form {
+  position: absolute;
+  top: 136px;
+  left: calc(50% - 36px);
+  max-width: 526px;
+  width: 100%;
+  background-color: #EAEAEA;
+  border: 1px solid #999999;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width:1010px)
+{
+  .popup__form {
+    left: 208px;
+    transform: none;
+  }
+}
+@media screen and (max-width:780px)
+{
+  .popup__form {
+    width: calc(100vw - 220px);
+  }
+}
+@media screen and (max-width:640px)
+{
+  .popup__form {
+    max-width: none;
+    width: calc(100vw - 25px);
+    left: 10px;
+    top: 192px;
+  }
+}

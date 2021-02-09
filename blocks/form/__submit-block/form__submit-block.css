@@ -1,0 +1,6 @@
+.form__submit-block {
+  display: flex;
+  flex-direction: row;
+  grid-column: 2/4;
+  align-items: center;
+}

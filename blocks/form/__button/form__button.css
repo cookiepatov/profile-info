@@ -1,0 +1,21 @@
+.form__button {
+  background-color: #71C838;
+  box-shadow: 0px 1px 0px #539D22;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  width: 119px;
+  height: 40px;
+  border: none;
+  margin-right: 12px;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.form__button:hover {
+opacity: 0.5;
+}

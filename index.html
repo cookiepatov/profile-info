@@ -5,17 +5,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Название</title>
+  <title>Форма профиля</title>
 </head>
 <body class="body">
   <div class="root">
     <header class="header">
     </header>
-    <main>
+    <main class="content">
+      <form name="profile-info" class="form">
+        <fieldset class="form__welcome-block">
+          <label class="welcome__message">
+            Здраствуйте,
+          </label>
+          <span class="welcome__message welcome__message_highlight">
+            Человек №3596941
+          </span>
+          <button type="button" class="welcome__change-status">
+            Сменить статус
+          </button>
+          <p class="welcome__status">
+            Прежде чем действовать, надо понять
+          </p>
+        </fieldset>
+        <fieldset class="form__input-block">
+          <label class="form__label">
+            Ваш город
+          </label>
+          <select class="form__input-select">
+            <option class="form__option">
+              Красноярск
+            </option>
+          </select>
+        </fieldset>
+        <fieldset class="form__input-block">
+          <label class="form__label" for="password">
+            Пароль
+          </label>
+          <div class="form__input-container">
+            <input class="form__input-text" type="password" name="password" id="password">
+          </div>
+          <p class="form__advice">
+            Ваш новый пароль должен содержать не менее 5 символов.
+          </p>
+          <label class="form__label" for="password-repeat">
+            Пароль ещё раз
+          </label>
+
+          <div class="form__input-container">
+          <input class="form__input-text" type="password" name="password-repeat" id="password-repeat">
+          </div>
+          <p class="form__advice">
+            Повторите пароль, пожалуйста, это обезопасит вас с нами на случай ошибки.
+          </p>
+        </fieldset>
+        <fieldset class="form__input-block">
+          <label class="form__label" for="email">
+            Электронная почта
+          </label>
+          <div class="form__input-container">
+          <input class="form__input-text" type="text" name="email" id="email">
+          </div>
+          <p class="form__advice">
+            Можно изменить адрес, указанный при регистрации.
+          </p>
+          <label class="form__label" for="accept-mailing">
+            Я согласен
+          </label>
+          <div class="form__accept-mailing">
+            <input class="form__checkbox" type="checkbox" name="accept-mailing" id="accept-mailing">
+            <label class="form__accept-text" for="accept-mailing">
+              принимать актуальную информацию на емейл
+            </label>
+          </div>
+          <div class="form__submit-block">
+            <button type="submit" class="form__button">
+              Изменить
+            </button>
+            <p class="form__advice">
+              последние изменения 15 мая 2012 в 14:55:17
+            </p>
+          </div>
+        </fieldset>
+      </form>
     </main>
     <footer class="footer">
     </footer>
+    <div class="popup">
+      <form class="popup__form">
+        <input class="popup__input" type="text">
+        <button class="popup__submit" type="submit">Сохранить</button>
+      </form>
+    </div>
   </div>
+  <template class="template-error">
+    <p class="form__error-message">
+      Укажите пароль
+    </p>
+  </template>
   <script type="module" src="./scripts/main.js"></script>
 </body>
 

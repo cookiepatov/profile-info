@@ -1,0 +1,26 @@
+.form__input-block {
+  border: none;
+  border-bottom: 1px solid #E5E4E4;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  display: grid;
+  grid-template-columns: 205px 336px 340px;
+  grid-column-gap: 18px;
+  grid-row-gap: 40px;
+}
+
+
+.form__input-block:last-of-type {
+  border-bottom: none;
+}
+
+
+@media screen and (max-width:960px) {
+  .form__input-block {
+    grid-template-columns: 2fr 3fr 3fr;
+    grid-column-gap: 10px;
+  }
+}

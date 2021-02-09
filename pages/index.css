@@ -1,4 +1,36 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/header/header.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/form/__welcome-block/form__welcome-block.css);
+@import url(../blocks/form/__input-block/form__input-block.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input-select/form__input-select.css);
+@import url(../blocks/form/__input-text/form__input-text.css);
+@import url(../blocks/form/__advice/form__advice.css);
+@import url(../blocks/form/__accept-mailing/form__accept-mailing.css);
+@import url(../blocks/form/__submit-block/form__submit-block.css);
+@import url(../blocks/form/__accept-text/form__accept-text.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+@import url(../blocks/form/__error-message/form__error-message.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__input-text/_wrong/form__input-text_wrong.css);
+
+@import url(../blocks/welcome/__message/welcome__message.css);
+@import url(../blocks/welcome/__message/_highlight/welcome__message_highlight.css);
+@import url(../blocks/welcome/__status/welcome__status.css);
+@import url(../blocks/welcome/__change-status/welcome__change-status.css);
+
+
 @import url(../blocks/footer/footer.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__input/popup__input.css);
+@import url(../blocks/popup/__submit/popup__submit.css);
+@import url(../blocks/popup/_show/popup_show.css);
